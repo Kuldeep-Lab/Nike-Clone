@@ -1,0 +1,149 @@
+body {
+    background-color: white;
+}
+
+.nav-link {
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carousel-indicators img{
+    width: 75px;
+    display: block;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+.carousel-indicators button{
+    width: max-content!important;
+    
+}
+.carousel-indicators{
+    position: unset;
+}
+
+.showcase {
+    position: relative;
+    bottom: 50px;
+}
+
+.slider-img {
+   max-height: 80vh;
+}
+
+.product-page {
+  padding-top: 100px;
+  width: 90vw;
+}
+
+.testamonial {
+  padding-top: 100px;
+  width: 90vw;
+}
+
+.bottom-card {
+  padding-top: 100px;
+  width: 90vw;
+}
+
+.testamonial-image {
+  width: 30vw;
+}
+
+.testamonial-area-img {
+  height: 55vh; 
+  width: 40vw;
+  border-radius: 15px;
+}
+
+.offer-page {
+  width: 30vw;
+}
+
+.offer-second-part {
+  padding-top: 100px;
+ 
+}
+
+@media screen and (max-width: 455px) {
+  
+  .product-page {
+    padding-top: 50px;
+  }
+
+  .testamonial {
+    padding-top: 50px;
+  }
+
+  .bottom-card {
+    padding-top: 50px;
+  }
+
+  .testamonial-image {
+    width: 100vw;
+  }
+
+  .testamonial-area-img {
+    height: 40vh;
+    width: 60vw;
+  }
+
+  .offer-page {
+      width: 80vw;
+  }
+
+  .offer-second-part {
+    padding-top: 30px;
+  }
+}
+
+  .dynamic-text-shadow {
+    animation: textShadowPulse 3s infinite ease-in-out;
+    color: #333;
+  }
+  
+  @keyframes textShadowPulse {
+    0% {
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    25% {
+      text-shadow: 4px 4px 10px rgba(12, 163, 189, 0.264);
+    }
+   /* 50% {
+      text-shadow: 6px 6px 15px rgba(0, 0, 0, 0.6);
+    }
+    75% {
+        text-shadow: 8px 8px 20px rgba(0, 0, 0, 0.8);
+      }
+      100% {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      } */ 
+  }
+
+  .fade-text {
+    animation: fadeInOut 3s infinite ease-in-out;
+    opacity: 0;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .product-card {
+      border-color: transparent;
+      border-radius: 15px;
+  }
+
+  .product-card:hover {
+    transition: all 0.6s;
+    transform: scale(1.15);
+}
+
